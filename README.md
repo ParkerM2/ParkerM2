@@ -6,7 +6,7 @@ Full-stack developer building AI-powered developer tooling. Currently focused on
 
 ## Featured Projects
 
-### [claude-workflow](https://github.com/ParkerM2/create-claude-workflow)
+### [create-claude-workflow](https://github.com/ParkerM2/create-claude-workflow)
 **Multi-agent workflow orchestration plugin for Claude Code**
 
 A Claude Code plugin that implements branch-per-task development with specialist agents (Team Leader, QA Reviewer, Codebase Guardian), automated quality gates, and crash-safe JSONL progress tracking. Designed for complex multi-file features that benefit from structured decomposition and automated QA cycles.
