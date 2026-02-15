@@ -20,9 +20,9 @@ A Claude Code plugin that implements branch-per-task development with specialist
 [Install via marketplace](https://github.com/ParkerM2/claude-workflow-marketplace) | [Documentation](https://github.com/ParkerM2/create-claude-workflow)
 
 ### [Claude-UI](https://github.com/ParkerM2/Claude-UI)
-**AI-Infused Desktop Command Center**
+**Full-Stack Multi-Device Workspace & Project Management Platform**
 
-Desktop application built with TypeScript for managing personal and work tasks with AI assistance. Integrates Calendar, Spotify, Discord, GitHub, and project automation into a unified interface.
+Massive full-stack application with mobile, Mac, and Windows support for computer-specific workspace and project management. Uses Claude Agent Teams and claude-workflow to automate everyday tasks — taking tickets or bullet-point task descriptions all the way to merged PRs. Integrates Calendar, Spotify, Discord, GitHub, and project automation into a unified AI-powered interface.
 
 ### [Syrnia-Tracker](https://github.com/ParkerM2/Syrnia-Tracker)
 **Browser Extension for Gameplay Analytics**
