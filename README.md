@@ -19,7 +19,7 @@ A Claude Code plugin that implements branch-per-task development with specialist
 
 [Install via marketplace](https://github.com/ParkerM2/claude-workflow-marketplace) | [Documentation](https://github.com/ParkerM2/create-claude-workflow)
 
-### [Claude-UI](https://github.com/ParkerM2/Claude-UI)
+### [Agentic-Desktop-Command](https://github.com/ParkerM2/Agentic-Desktop-Command)
 **Full-Stack Multi-Device Workspace & Project Management Platform**
 
 Massive full-stack application with mobile, Mac, and Windows support for computer-specific workspace and project management. Uses Claude Agent Teams and claude-workflow to automate everyday tasks — taking tickets or bullet-point task descriptions all the way to merged PRs. Integrates Calendar, Spotify, Discord, GitHub, and project automation into a unified AI-powered interface.
