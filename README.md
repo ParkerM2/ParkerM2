@@ -9,13 +9,14 @@ Full-stack developer building AI-powered developer tooling. Currently focused on
 ### [create-claude-workflow](https://github.com/ParkerM2/create-claude-workflow)
 **Multi-agent workflow orchestration plugin for Claude Code**
 
-A Claude Code plugin that implements branch-per-task development with specialist agents (Team Leader, QA Reviewer, Codebase Guardian), automated quality gates, and crash-safe JSONL progress tracking. Designed for complex multi-file features that benefit from structured decomposition and automated QA cycles.
+A Claude Code plugin that implements branch-per-task feature development with specialist agents, automated QA gates, and stamp-file crash recovery. Complex features are decomposed into agent-ready tasks, executed in parallel waves with isolated git worktrees, and gated by per-task QA review before merging.
 
-- 14 slash commands: `/implement-feature`, `/review-pr`, `/generate-tests`, `/hotfix`, `/refactor`, and more
-- Enforcement hooks: branch guard, config guard, destructive command guard
-- Customizable guardrails: mandatory planning gates, scoped file ownership, per-task QA, error recovery protocols
-- Works alongside other plugins (Superpowers, custom agent packages) — `/discover-agents` retrofits existing agents into the structured workflow
-- JSONL event tracking with concurrent instance support and crash recovery
+- **24 slash commands** across core workflow, Jira/Atlassian integration, and code quality analysis — `/agent-team`, `/new-plan`, `/sprint-tickets`, `/start-day`, `/audit-dependencies`, `/generate-changelog`, and more
+- **3 built-in agents**: Team Leader (orchestrator), QA Reviewer (per-task quality gate), Codebase Guardian (final structural integrity check)
+- **10 skills** — `/agent-team` is decomposed into 6 stamp-gated steps (`wf-preflight` → `wf-plan` → `wf-setup` → `wf-spawn` → `wf-qa-gate` → `wf-guardian` → `wf-finalize`) that survive context compaction
+- **Enforcement hooks**: branch guard, destructive command guard, config guard, phase gate enforcement, JSONL progress tracking
+- **Jira + Confluence integration** via `/connect-atlassian` — sprint management, ticket sync, blocker detection, retrospective prep
+- Works alongside other Claude Code plugins — configurable per-project via `.claude/workflow.json`
 
 [Install via marketplace](https://github.com/ParkerM2/claude-workflow-marketplace) | [Documentation](https://github.com/ParkerM2/create-claude-workflow)
 
@@ -33,8 +34,8 @@ Chrome extension for storing, formatting, analyzing, and exporting gameplay data
 
 ## What I'm Working On
 
-- Extending claude-workflow with official marketplace submission and deeper agent coordination
-- Exploring structured progress tracking patterns for terminal-based AI agents
+- Extending claude-workflow with deeper Atlassian integration and sprint automation
+- Exploring stamp-file and JSONL patterns for crash-safe AI agent orchestration
 - Building tools that give developers more control over AI agent teams — planning gates, QA cycles, scope enforcement, and auditability
 
 ---
